@@ -62,5 +62,7 @@ if (cardNumber === undefined) {
 }
 else {
   var statement = (`Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`);
+  cart.length = 0;
+  return statement;
 }
 }
